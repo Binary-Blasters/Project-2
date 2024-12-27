@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPERATING SYSTEM</title>
+      <!--Favicon-->
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+   
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 8px;
+        }
+        .dark{
+            border: 1px solid black;
+        }
+        .white{
+            border: 1px solid white;
+        }
+        th {
+            font-weight: bold;
+        }
+        .title {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+     <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light text-black-50" id="nav">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="/index.html">Binary Blasters</a>
+
+      <!-- Toggle button for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links and Search -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Cards.html">Subjects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/notes.html">Notes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/About.html">About Us</a>
+          </li>
+        </ul>
+
+        <!-- Search bar -->
+        <div class="d-flex search-bar">
+            <input class="form-control me-2" type="search" placeholder="Search"  id="srch">
+            <button class="btn btn-outline-primary"  id="srchBtn" onclick="search()">Search</button>
+          </div>
+
+        <!-- Dark/Light mode toggle -->
+        <div class="form-check form-switch mx-2">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onclick="toggleMode()">
+          <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <!--OPERATING SYSTEM-->
+    <div class="my-3 ms-4" id="OS">
+        <div class="d-flex aling-item-center justify-content-center my-3 " style="height: 50px;">
+            <div class=" py-3 " style="padding: 5px;">
+                <strong>DATA STRUCTURE & ALGORITHMS USING “C”</strong>
+            </div>
+        </div>
+        <div>
+            <table>
+                <tr class="Brd">
+                    <td class="Brd" rowspan="3">SUBJECT CODE: <br> 2018403</td>
+                    <td class="Brd" colspan="3">Theory</td>
+                    <td class="Brd" rowspan="3">No. of period in one session: 50 <br> Full Marks: <br> <b>ESE:</b> 70 <br> <b>T.A:</b> 10 <br> <b>C.T:</b> 20</td>
+                    <td class="Brd" rowspan="3">Credits <br><b>03</b></td>
+                </tr>
+                <tr class="Brd">
+                    <td class="Brd" colspan="3">No. of Periods per Week</td>
+                    
+                </tr>
+                <tr class="Brd">
+                    
+                    <td class="Brd">L</td>
+                    <td class="Brd">T</td>
+                    <td class="Brd">P/S</td>
+                </tr>
+                <tr class="Brd">
+                    <td class="Brd"></td>
+                    <td class="Brd">03</td>
+                    <td class="Brd">-</td>
+                    <td class="Brd">-</td>
+                    <td class="Brd" colspan="3"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="my-4">
+            <dl>
+                <dt><strong class="text-decoration-underline">Course Learning Objective:</strong></dt>
+            </dl>
+            <dd>
+                <p>
+                    Data Structure is a subject which deals with data and their structures. <br>In system programming, application programming, the method and techniques of data structures are widely used. This study of data structure helps the students in developing logic & structured programs.
+                </p>
+            </dd>
+        </div>
+        <div class="my-4">
+            <dl>
+                <dt>
+                    <strong class="text-decoration-underline">Objective:</strong>
+                </dt>
+                <dd>
+                    <p>After completion of this course student will be able to: -</p>
+                     <ul>
+                        <li>Understand and use the process of abstraction using a programming language such as 'C'.</li>
+                        <li>
+                            Analyze step by step and develop algorithm to solve real world problems.
+                        </li>
+                        <li>Implementing various data structures viz. Stacks, Queues, Linked Lists, Trees and Graphs.</li>
+                        <li>
+                            Understanding various searching & sorting techniques
+                        </li>
+                     </ul>
+                </dd>
+            </dl>
+        </div>
+        <div class="my-4">
+            <table border="2px">
+                <tr class="Brd">
+                    <th class="Brd" >Units</th>
+                    <th class="Brd" colspan="7">Contents: Theory</th>
+                    <th class="Brd">Hrs.</th>
+                    <th class="Brd">Marks</th>
+                </tr>
+                <tr class="Brd">
+                    <td class="Brd" >UNIT:1</td>
+                    <td class="Brd" colspan="7">
+                        <dl>
+                            <dt>
+                                <strong class="text-decoration-underline">Introduction to Data Structure: -</strong>
+                            </dt>
+                            <dd>Data & Information, Concept and Need of DS, Abstract Data Type.
+                                Types of Data Structure: Linear & Non-linear.
+                                Algorithm Complexity: Time & Space. Operation on Data Structure:</dd>
+                        </dl>
+                    </td>
+                    
+                    <td class="Brd">[8]</td>
+                </tr> 
+                <tr>
+                    <td class="Brd" >UNIT:2</td>
+                    <td class="Brd" colspan="7">
+                        <dl>
+                            <dt>
+                                <strong class="text-decoration-underline">Searching & Sorting: -</strong>
+                            </dt>
+                            <dd>Searching: Implementation of Different searching algorithm.
+                                Sorting: Implementation of Different Sorting algorithm.</dd>
+                        </dl>
+                    </td>
+                    
+                    <td class="Brd">[8]</td>
+                </tr>
+                <td class="Brd" >UNIT:3</td>
+                <td class="Brd" colspan="7">
+                    <dl>
+                        <dt>
+                            <strong class="text-decoration-underline">Stacks & Queues: -</strong>
+                        </dt>
+                        <dd>Stack: Introduction to Stack: Stack Operation Conditions:
+                            Application of Stack: Infix- to-Postfix Transformation Evaluation Postfix.
+                            Introduction to Queue, Dequeue: Array Representation of Queue; Operation on Queue: Types of Queues: Linear Queue Circular Queue, Priority Queue, Application of Queue.</dd>
+                    </dl>
+                </td>
+                
+                <td class="Brd">[10]</td>
+            </tr>
+            <tr class="Brd">
+                <td class="Brd" >UNIT:4</td>
+                <td class="Brd" colspan="7">
+                    <dl>
+                        <dt>
+                            <strong class="text-decoration-underline">Linked List: -</strong>
+                        </dt>
+                        <dd>
+                            Introduction to Linked List Terminology: Node, Address, Pointer, Data field and Next Pointer, Empty List.
+                                Types of Lists: Singly Linked List, Doubly Link list, Circular Linked List.
+                                    Operation on Linked List:
+                        </dd>
+                    </dl>
+                </td>
+                
+                <td class="Brd">[10]</td>
+            </tr>
+
+            <tr class="Brd">
+                <td class="Brd" >UNIT:5</td>
+                 <td class="Brd" colspan="7">
+                 <dl>
+                        <dt>
+                            <strong class="text-decoration-underline">Trees and Graphs: -</strong>
+                        </dt>
+                        <dd>Introduction to Trees: Basic Terminology: Tree, Degree of a Node and Tree, Level of Node, Leaf Node, Depth & Height of a Tree; Type of Tree.
+                            Introduction to Binary Tree (BT): Operation on BT: Insertion, Deletion, Searching, and traversing the Tree (Pre-order, Post order, In order); Application of BT.
+                            Introduction to Binary Search Tree (BST): Operation on BT: Insertion, Deletion, Finding Min-Max Element, Sorting Element;
+                            Introduction to AVL Tree: Insertion, Deletion;
+                            Intrusions to Graph basic terminology:
+                            Adjacency List, Adjacency Matrix.
+                        </dd>
+                    </dl>
+                </td>
+    
+                <td class="Brd">[16]</td>
+            </tr>
+         
+            </table>
+        </div>
+        <strong>Books Recommended: -</strong>
+        <ol>
+            <li>Data Structure Using C and C++, Second Addition, 2000,
+                - Y. Langsam, M. J. Augustein and A. M. Tanebaum Prentice Hall of India.</li>
+                <li>
+                    Data Structure Using C and C++, Second Addition, 2000,
+                    - R. Kruse, C. L. Tonodo and B. Leung Prentice Hall of India.
+                </li>
+                <li>
+                    Data Structure through "C" Language, First Edition, 2001,
+- S.Chottopadhyay, D. Ghoshdastidar & M.Chottopadhyay BPB Publication
+                </li>
+                <li>Data Structures, Algorithms and Object Oriented - G. L. Heileman</li>
+                <li>
+                    Programming, First Edition, 2002, Tata McGraw Hill
+                </li>
+                <li>
+                    Fundamental of Data Structures in C++, 2002, Galgotia
+                    - E. Horowitz, Salmi and D. Mehta Publication 2002
+                </li>
+               
+        </ol>
+    </div>
+    <div class="d-flex justify-content-between mx-5 my-5">
+        <button class="btn btn-outline-warning" onclick="HandleBack()">&larr; Back</button>
+        <button class="btn btn-outline-warning" onclick="HandleNxt()">NEXT &rarr;</button>
+      </div>
+      <footer class="text-white py-4" style="background-color: blueviolet;">
+        <div class="container">
+          <div class="row">
+            <!-- Company Info -->
+            <div class="col-md-4">
+              <h5>Binary Blasters</h5>
+              <p>E-mail: thebinaryblasters@gmail.com</p>
+            </div>
+      
+            <!-- Quick Links -->
+            <div class="col-md-4">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="/About.html" class="text-white text-decoration-none">About Us</a></li>
+                <li><a href="/Cards.html" class="text-white text-decoration-none">Syllabus</a></li>
+                <li><a href="/About.html" class="text-white text-decoration-none">Contact</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+              </ul>
+            </div>
+      
+            <!-- Social Media -->
+            <div class="col-md-4">
+              <h5>Follow Us</h5>
+              <a href="https://www.facebook.com/profile.php?id=61571131743267&mibextid=kFxxJD" class="text-white text-decoration-none me-3"><i class="bi bi-facebook"></i> Facebook <i class="fa-brands fa-facebook"></i></a><br>
+              <a href="https://youtube.com/@thebinaryblasters?si=mgFbDO-ov6wPguc7" class="text-white text-decoration-none me-3"><i class="bi bi-twitter"></i> Youtube <i class="fa-brands fa-youtube"></i></a><br>
+              <a href="#" class="text-white text-decoration-none"><i class="bi bi-instagram"></i> Instagram <i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+      
+          <div class="text-center mt-3">
+            <p>&copy; 2024 Binary Blasters. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/ToggleMode.js"></script>
+    <script src="/BackNxt.js"></script>
+    <script src="/searchFunction.js"></script>
+</body>
+</html>

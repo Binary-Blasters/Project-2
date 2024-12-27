@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="Cards.css">
+    <style>
+      body{
+        background-color: black;
+        color: white;
+      }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light text-black-50" id="nav">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="/index.html">Binary Blasters</a>
+
+      <!-- Toggle button for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <!-- Links and Search -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Cards.html">Subjects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/notes.html">Notes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/About.html">About Us</a>
+          </li>
+        </ul>
+         <!-- Search bar -->
+         <div class="d-flex search-bar">
+          <input class="form-control me-2" type="search" placeholder="Search"  id="srch">
+          <button class="btn btn-outline-primary"  id="srchBtn" onclick="search()">Search</button>
+        </div>
+
+        <!-- Dark/Light mode toggle -->
+        <div class="form-check form-switch mx-2">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onclick="toggleMode()">
+          <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="d-flex flex-wrap mx-4">
+    <div class="card-os" style="width: 18rem;" id="cards">
+        <img src="OS.png" class="card-img-top" alt="..." height="120rem">
+        <div class="card-body">
+          <h5 class="card-title">Operating System</h5>
+          <p class="card-text">Lecturer :- Ravi Ranjan Sir</p>
+          <a href="./OS.html" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+      <div class="card-dbms" style="width: 18rem;" id="cards">
+        <img src="DBMS.png" class="card-img-top" alt="..." height="120rem">
+        <div class="card-body">
+          <h5 class="card-title">Database and Management System</h5>
+          <p class="card-text">Lecturer :- Raju Raj Sir</p>
+          <a href="./DBMS.html" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+      <div class="card-dsa" style="width: 18rem;" id="cards">
+        <img src="DSA.png" class="card-img-top" alt="..." height="120rem">
+        <div class="card-body">
+          <h5 class="card-title">DSA in 'C'</h5>
+          <p class="card-text">Lecturer :- Ankit Sir</p>
+          <a href="./DSAbyC.html" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+      <div class="card-phython" style="width: 18rem;" id="cards">
+        <img src="PHYTHON.png" class="card-img-top" alt="..." height="120rem">
+        <div class="card-body">
+          <h5 class="card-title">Phython</h5>
+          <p class="card-text">Lecturer :- Rajeev Sir</p>
+          <a href="./PYTHON.html" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+      <div class="card-cgraphics" style="width: 18rem;" id="cards">
+        <img src="Cgraphics.png" class="card-img-top" alt="..." height="120rem">
+        <div class="card-body">
+          <h5 class="card-title">Computer Graphics</h5>
+          <p class="card-text">Lecturer :- Coming Soon</p>
+          <a href="./CGRAPHICS.html" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container-sm">
+      <details open>
+        <summary>OPERATING SYSTEM</summary>
+        <p>--- <br>
+
+          Operating System
+          <br><br>
+          The Operating System is the heart of any computing system, managing hardware and software resources to provide a seamless user experience. This subject delves into key concepts like process scheduling, memory management, file systems, and system security. It builds the foundation for understanding how modern operating systems like Windows, Linux, and macOS function.
+          <br><br>
+         <strong style="background-color: blueviolet;"> Instructor: Ravi Ranjan Sir </strong>
+          <br><br>
+          With years of experience in the field of computer science, Ravi Ranjan Sir is an expert in Operating Systems and system design. His engaging teaching style and in-depth knowledge make complex topics easier to grasp, ensuring a solid understanding of the subject.
+          
+          <br>
+          ---</p>
+      </details>
+      <details>
+        <summary>Database and Management System</summary>
+        <p>--- <br>
+
+          Database and Management System (DBMS)
+          <br><br>
+          The Database and Management System subject focuses on the efficient organization, storage, and retrieval of data. Students will explore core topics such as relational databases, SQL queries, normalization, indexing, and transaction management. This subject equips learners with the skills to design and manage databases, a critical skill in today’s data-driven world.
+          <br><br>
+        <strong style="background-color: blueviolet;">  Instructor: Raju Raj Sir </strong>
+          <br><br>
+          Raju Raj Sir brings extensive expertise in database systems and a passion for teaching. His practical approach to database design and management, combined with real-world examples, ensures students grasp complex concepts with ease and confidence.
+          
+          <br>
+          ---</p>
+      </details>
+      <details>
+        <summary>DSA in 'C'</summary>
+        <p>--- <br>
+
+          Data Structures and Algorithms (DSA) in 'C'
+          <br><br>
+          The DSA in 'C' subject focuses on mastering the fundamental building blocks of programming. It covers essential topics such as arrays, linked lists, stacks, queues, trees, graphs, sorting, and searching algorithms. By implementing these concepts in the C programming language, students develop efficient problem-solving skills and a strong foundation in algorithmic thinking.
+          <br><br>
+         <strong style="background-color: blueviolet;"> Instructor: Ankit Sharma Sir </strong>
+          <br><br>
+          Ankit Sir is a skilled educator with a deep understanding of data structures and algorithms. His practical teaching methods and problem-oriented approach help students gain clarity and confidence in tackling complex coding challenges.
+          
+          <br>
+          ---</p>
+      </details>
+      <details>
+        <summary>Phython</summary>
+        <p>--- <br>
+
+          Python
+          <br><br>
+          The Python subject introduces students to one of the most versatile and widely-used programming languages in the world. Covering topics such as basic syntax, data structures, object-oriented programming, and libraries, this subject provides the tools to build web applications, automate tasks, analyze data, and explore machine learning concepts. Python's simplicity and power make it an essential skill for modern developers.
+          <br><br>
+         <strong style="background-color: blueviolet;"> Instructor: Rajeev Sir </strong>
+          <br><br>
+          Rajeev Sir is a proficient Python expert with a knack for making programming approachable and exciting. His engaging teaching style, real-world examples, and hands-on exercises ensure that students not only learn Python but also apply it effectively in various domains.
+          
+          <br>
+          ---</p>
+      </details>
+      <details>
+        <summary>Computer Graphics</summary>
+        <p>--- <br>
+
+          Computer Graphics
+          <br><br>
+          The Computer Graphics subject explores the fascinating world of visual computing. Topics include 2D and 3D transformations, rendering techniques, color models, shading, and animation. Students will learn how to create and manipulate graphical content, forming the foundation for careers in gaming, simulation, virtual reality, and digital art.
+          <br><br>
+         <strong style="background-color: blueviolet;"> Instructor: Coming Soon </strong>
+          <br><br>
+          An experienced and dedicated instructor will soon join to guide students through the creative and technical aspects of Computer Graphics, ensuring a comprehensive learning experience.
+          
+          <br>
+          ---</p>
+      </details>
+    </div>
+    <br><br>
+    <div class="d-flex justify-content-between mx-5 my-3">
+      <button class="btn btn-outline-warning" onclick="HandleBack()">&larr; BACK</button>
+      <button class="btn btn-outline-warning" onclick="HandleNxt()">NEXT &rarr;</button>
+    </div>
+    <footer class="text-white py-4" style="background-color: blueviolet;">
+      <div class="container">
+        <div class="row">
+          <!-- Company Info -->
+          <div class="col-md-4">
+            <h5>Binary Blasters</h5>
+            <p>E-mail: thebinaryblasters@gmail.com</p>
+          </div>
+  
+          <!-- Quick Links -->
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="/About.html" class="text-white text-decoration-none">About Us</a></li>
+              <li><a href="/Cards.html" class="text-white text-decoration-none">Syllabus</a></li>
+              <li><a href="/About.html" class="text-white text-decoration-none">Contact</a></li>
+              <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+            </ul>
+          </div>
+  
+          <!-- Social Media -->
+          <div class="col-md-4">
+            <h5>Follow Us</h5>
+            <a href="https://www.facebook.com/profile.php?id=61571131743267&mibextid=kFxxJD" class="text-white text-decoration-none me-3"><i class="bi bi-facebook"></i> Facebook <i class="fa-brands fa-facebook"></i></a><br>
+            <a href="https://youtube.com/@thebinaryblasters?si=mgFbDO-ov6wPguc7" class="text-white text-decoration-none me-3"><i class="bi bi-twitter"></i> Youtube <i class="fa-brands fa-youtube"></i></a><br>
+            <a href="#" class="text-white text-decoration-none"><i class="bi bi-instagram"></i> Instagram <i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="text-center mt-3">
+          <p>&copy; 2024 Binary Blasters. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>  
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="ToggleMode.js"></script>
+  <script src="searchFunction.js"></script>
+  <script src="BackNxt.js"></script>
+  <script src="searchFunction.js"></script>
+</body>
+</html>

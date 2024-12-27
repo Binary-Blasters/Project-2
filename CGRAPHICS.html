@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPERATING SYSTEM</title>
+      <!--Favicon-->
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+   
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 8px;
+        }
+        .dark{
+            border: 1px solid black;
+        }
+        .white{
+            border: 1px solid white;
+        }
+        th {
+            font-weight: bold;
+        }
+        .title {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+     <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light text-black-50" id="nav">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="/index.html">Binary Blasters</a>
+
+      <!-- Toggle button for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links and Search -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Cards.html">Subjects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/notes.css">Notes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/About.html">About Us</a>
+          </li>
+        </ul>
+
+        <!-- Search bar -->
+        <div class="d-flex search-bar">
+            <input class="form-control me-2" type="search" placeholder="Search"  id="srch">
+            <button class="btn btn-outline-primary"  id="srchBtn" onclick="search()">Search</button>
+          </div>
+
+        <!-- Dark/Light mode toggle -->
+        <div class="form-check form-switch mx-2">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onclick="toggleMode()">
+          <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <!--COMPUTER GRAPHICS-->
+    <div class="my-3 ms-4" id="OS">
+        <div class="d-flex aling-item-center justify-content-center my-3 " style="height: 50px;">
+            <div class=" py-3 " style="padding: 5px;">
+                <strong>COMPUTER GRAPHICS</strong>
+            </div>
+        </div>
+        <div>
+            <table>
+                <tr class="Brd">
+                    <td class="Brd" rowspan="3">SUBJECT CODE: <br> 2018405</td>
+                    <td class="Brd" colspan="3">Theory</td>
+                    <td class="Brd" rowspan="3">No. of period in one session: 50 <br> Full Marks: <br> <b>ESE:</b> 70 <br> <b>T.A:</b> 10 <br> <b>C.T:</b> 20</td>
+                    <td class="Brd" rowspan="3">Credits <br><b>03</b></td>
+                </tr>
+                <tr class="Brd">
+                    <td class="Brd" colspan="3">No. of Periods per Week</td>
+                    
+                </tr>
+                <tr class="Brd">
+                    
+                    <td class="Brd">L</td>
+                    <td class="Brd">T</td>
+                    <td class="Brd">P/S</td>
+                </tr>
+                <tr class="Brd">
+                    <td class="Brd"></td>
+                    <td class="Brd">03</td>
+                    <td class="Brd">-</td>
+                    <td class="Brd">-</td>
+                    <td class="Brd" colspan="3"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="my-4">
+            <dl>
+                <dt><strong class="text-decoration-underline">Course Learning Objective:</strong></dt>
+            </dl>
+            <dd>
+                <p>
+                    This course will provide an introduction to fundamental concepts in Computer Graphics from
+                    a practical perspective. It aims to cover mathematical concepts essential for computer graphics,
+                    graphic devices, various algorithms and multimedia systems. Ideally, a student who
+                    successfully completed these courses will be familiar with modern methods in computer
+                    graphics, with the use of commonly used tools in this area and having knowledge to write
+                    algorithms for generating images. 
+                </p>
+            </dd>
+        </div>
+        <div class="my-4">
+            <dl>
+                <dt>
+                    <strong class="text-decoration-underline">Objective:</strong>
+                </dt>
+                <dd>
+                    <p>This course is an introduction to computer graphics and provides familiarity with graphics
+                        software and hardware systems. The course covers the following concepts: </p>
+                     <ul>
+                        <li>Understanding of graphics and its applications.</li>
+                        <li>
+                            The fundamentals of input, display and hardcopy devices, scan conversion of
+geometric primitives.
+                        </li>
+                        <li>Output primitives.</li>
+                        <li>
+                            Geometric representations.
+                        </li>
+                        <li>Two and Three-dimensional Transformations.</li>
+                        <li>Windowing and clipping methods.</li>
+                        <li>Segments.</li>
+                        <li>Three-dimensional concepts.</li>
+                        <li>Hidden-element removal.</li>
+                        <li>Multimedia hardware and applications.</li>
+                     </ul>
+                </dd>
+            </dl>
+        </div>
+        <div class="my-4">
+            <table border="2px">
+                <tr class="Brd">
+                    <th class="Brd" >Units</th>
+                    <th class="Brd" colspan="7">Contents: Theory</th>
+                    <th class="Brd">Hrs.</th>
+                    <th class="Brd">Marks</th>
+                </tr>
+                <tr class="Brd">
+                    <td class="Brd" >UNIT:1</td>
+                    <td class="Brd" colspan="7">
+                        <dl>
+                            <dt>
+                                <strong class="text-decoration-underline">INTRODUCTION AND APPLICATIONS:</strong>
+                            </dt>
+                            <dd>What is CG, Characteristics & Classification of CG
+                                Applications: Presentation graphics, painting and
+                                drawing, scientific visualization, image processing,
+                                digital art, entertainment, CAD in architecture,
+                                animation</dd>
+                        </dl>
+                    </td>
+                    
+                    <td class="Brd">[8]</td>
+                </tr> 
+                <tr>
+                    <td class="Brd" >UNIT:2</td>
+                    <td class="Brd" colspan="7">
+                        <dl>
+                            <dt>
+                                <strong class="text-decoration-underline">Display devices: </strong>
+                            </dt>
+                            <dd>Random-scan and raster scan monitors, Colour CRT, Plasma
+                                panel displays, LCD Panels Input/ Output Devices</dd>
+                        </dl>
+                    </td>
+                    
+                    <td class="Brd">[8]</td>
+                </tr>
+                <td class="Brd" >UNIT:3</td>
+                <td class="Brd" colspan="7">
+                    <dl>
+                        <dt>
+                            <strong class="text-decoration-underline">2 D DRAWING GEOMETRY:</strong>
+                        </dt>
+                        <dd> 2D transformation: Use of homogeneous coordinate systems, translation,
+                            scaling, rotation, mirror reflection, rotation about an arbitrary point.
+                            Interactive techniques: Constraints, Grids, Gravity field, Rubber-band,
+                            Dragging, Painting & drawing
+                            </dd>
+                    </dl>
+                </td>
+                
+                <td class="Brd">[8]</td>
+            </tr>
+            <tr class="Brd">
+                <td class="Brd" >UNIT:4</td>
+                <td class="Brd" colspan="7">
+                    <dl>
+                        <dt>
+                            <strong class="text-decoration-underline">CONICS AND CURVES: </strong>
+                        </dt>
+                        <dd>
+                            DDA lines circle drawing algorithm, Bresenham's lines
+                            circle drawing algorithm, Generation of ellipses, Curve
+                            drawing, Parametric representation, need of cubic
+                            curves, Drawing cubic Bezier and B-spline curves &
+                            their properties. (No derivations needed)
+                        </dd>
+                    </dl>
+                </td>
+                
+                <td class="Brd">[8]</td>
+            </tr>
+
+            <tr class="Brd">
+                <td class="Brd" >UNIT:5</td>
+                 <td class="Brd" colspan="7">
+                 <dl>
+                        <dt>
+                            <strong class="text-decoration-underline">Window-port and viewport: -</strong>
+                        </dt>
+                        <dd>Explicit line clipping algorithm - Sutherland Cohen
+                            algorithm, Mid-point sub-division algorithm, Polygon
+                            Clipping: Sutherland- Hodgeman algo - Polygon
+                            representation, Inside & outside test of Polygon Filling:
+                            - Stack based and queue-based seed fill algorithms -
+                            Scan line fill algorithm Character generation
+                        </dd>
+                    </dl>
+                </td>
+    
+                <td class="Brd">[8]</td>
+            </tr>
+            <tr class="Brd">
+                <td class="Brd" >UNIT:6</td>
+                 <td class="Brd" colspan="7">
+                 <dl>
+                        <dt>
+                            <strong class="text-decoration-underline">3 D GRAPHICS: Transformations: -</strong>
+                        </dt>
+                        <dd>Transformation matrices for translation, scaling and rotation
+                            around axis Parallel Projection: Orthographic,
+                            Axonometric, Oblique projection with multi views
+                            Perspective Projection: - Vanishing point: Single – point,
+                            Two- point & Three-point Hidden Surface Removal:
+                            Back face removal
+                        </dd>
+                    </dl>
+                </td>
+    
+                <td class="Brd">[7]</td>
+            </tr>
+            <tr class="Brd">
+                <td class="Brd" >UNIT:7</td>
+                 <td class="Brd" colspan="7">
+                 <dl>
+                        <dt>
+                            <strong class="text-decoration-underline">ANIMATION: </strong>
+                        </dt>
+                        <dd>Basics of animation, Types of animation, Types of
+                            animation system. Tweaking and Morphing                            
+                        </dd>
+                    </dl>
+                </td>
+    
+                <td class="Brd">[3]</td>
+            </tr>
+         
+            </table>
+        </div>
+        <strong>Books Recommended: -</strong>
+        <ul>
+            <li> Computer Graphics, 2nd Edition 2010 - Udit Agarwal, Katson Publications</li>
+                <li>
+                    Computer Graphics, Second Edition, 1995. - D. Hearn & P.M. Baker Prentice Hall of
+                    India
+                </li>
+                <li>
+                    OpenGL Programming Guide, Third Edition, 2000 - Woo, Nelder, Davis, Shreiner
+Pearson Education Asia
+                </li>
+                <li>Multimedia, Making It Working, Fifth Edition, 2001 - T. Vaughan McGraw Hill </li>
+        </ul>
+    </div>
+    <strong>Reference Books </strong>
+    <ul>
+        <li>Fundamentals of Interactive Computer Graphics, Second Edition - J.D. Foley & A. Van
+            Dam Addison Wesley </li>
+        <li>Computer Graphics - A Programming - S. Harrington McGraw Hill Approach International
+            Ed. </li>
+        <li> Multimedia Systems, 2000 - Rajneesh Agrawal & Bharat Bhushan Tiwari, Excel
+            Publications</li>
+    </ul>
+    <div class="d-flex justify-content-between mx-5 my-5">
+        <button class="btn btn-outline-warning" onclick="HandleBack()">&larr; Back</button>
+        <button class="btn btn-outline-warning" onclick="HandleNxt()">NEXT &rarr;</button>
+      </div>
+      <footer class="text-white py-4" style="background-color: blueviolet;">
+        <div class="container">
+          <div class="row">
+            <!-- Company Info -->
+            <div class="col-md-4">
+              <h5>Binary Blasters</h5>
+              <p>E-mail: thebinaryblasters@gmail.com</p>
+            </div>
+      
+            <!-- Quick Links -->
+            <div class="col-md-4">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="/About.html" class="text-white text-decoration-none">About Us</a></li>
+                <li><a href="/Cards.html" class="text-white text-decoration-none">Syllabus</a></li>
+                <li><a href="/About.html" class="text-white text-decoration-none">Contact</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+              </ul>
+            </div>
+      
+            <!-- Social Media -->
+            <div class="col-md-4">
+              <h5>Follow Us</h5>
+              <a href="https://www.facebook.com/profile.php?id=61571131743267&mibextid=kFxxJD" class="text-white text-decoration-none me-3"><i class="bi bi-facebook"></i> Facebook <i class="fa-brands fa-facebook"></i></a><br>
+              <a href="https://youtube.com/@thebinaryblasters?si=mgFbDO-ov6wPguc7" class="text-white text-decoration-none me-3"><i class="bi bi-twitter"></i> Youtube <i class="fa-brands fa-youtube"></i></a><br>
+              <a href="#" class="text-white text-decoration-none"><i class="bi bi-instagram"></i> Instagram <i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+      
+          <div class="text-center mt-3">
+            <p>&copy; 2024 Binary Blasters. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/ToggleMode.js"></script>
+    <script src="/BackNxt.js"></script>
+    <script src="/searchFunction.js"></script>
+</body>
+</html>

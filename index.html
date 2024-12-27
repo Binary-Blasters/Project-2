@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binary Blasters</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Binary Blasters</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Cards.html">Subject</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/notes.html">Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/About.html">About Us</a>
+                    </li>
+                </ul>
+              </div>
+              <div class="d-flex align-items-center" style="margin-left: 500px;">
+                <div class="d-flex search-bar">
+                  <input class="form-control me-2" type="search" placeholder="Search"  id="srch">
+                  <button class="btn btn-outline-primary"  id="srchBtn" onclick="search()">Search</button>
+                </div>
+                <div class="form-check form-switch mx-2" >
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onclick="toggleMode()">
+                    <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+  <div class="container-sm">
+    <p>--- <br><br>
+
+      <strong style="background-color: blueviolet; color: black; font-size: 20px;">Binary Blasters – Your Digital Electronics Companion</strong>
+      <br>
+      At Binary Blasters, we aim to simplify the complexities of digital electronics, making learning engaging, practical, and accessible for everyone. 
+      Whether you’re a student, an enthusiast, or a budding engineer, our platform is designed to help you master the fundamental concepts of digital systems, logic circuits, and more. 
+      Step into the fascinating world of zeros and ones, and unlock the secrets of modern technology with us.
+      <br><br>
+      
+      ---
+      <br>
+      <strong style="background-color: blueviolet; color: black; font-size: 20px;"> Choose Binary Blasters?</strong>
+      <br>
+      Binary Blasters stands out as a dedicated hub for digital electronics education. With interactive tutorials, hands-on projects, and real-world applications, 
+      we bridge the gap between theoretical knowledge and practical skills. Our content is tailored for learners of all levels, offering a blend of clarity and depth. From combinational circuits to memory devices, Binary Blasters ensures you gain both confidence and competence in every topic you explore.
+      
+      <br><br>
+      ---
+      ---
+      <br><br>
+      <strong style="background-color: blueviolet; color: black; font-size: 20px;"> The Binary Blasters Community </strong>
+      <br><br>
+
+Learning is better together! Connect with a community of learners, educators, and professionals who share your passion for digital electronics.
+ Collaborate on projects, exchange ideas, and grow your expertise in a supportive and inspiring environment. With Binary Blasters,
+  you’re not just learning—you’re joining a movement to innovate and excel.
+
+<br><br>
+---
+
+
+</div> 
+<div class="container"> 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="CSE2.png" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="laptop-5673901_1280.jpg" alt="Chicago" style="width: 100%;">
+      </div>
+    
+      <div class="item">
+        <img src="blockchain-8008051_1280.webp" alt="New york" style="width: 100%;">
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<br>
+<div class="container-dt">
+  <strong>On this page you can:</strong>
+  <ul>
+    <li>Download previous year question for only 4th semester Cse.</li>
+    <li>Download polytechic engineering previous year question for all semester including 4th semester.</li>
+    <li>Download notes for all semester including 4th semester.</li>
+    <li>Download study materials for branches including Computer Science & Engineering.</li>
+  </ul>
+  <br><br>
+  <strong>Page keywords:</strong>
+  <h5>SBTE, PYQ, previous year questions, syllabus, question banks, practical notes, model sets, term works, study materials, tools, SEM.</h5>
+</div>
+<br>
+<div class="container-space">
+</div>
+<br>
+<div class="d-flex justify-content-between mx-5 my-2">
+  <button class="btn btn-outline-warning" onclick="HandleBack()">&larr; BACK</button>
+  <button class="btn btn-outline-warning" onclick="HandleNxt()">NEXT &rarr;</button>
+</div>
+<footer class="text-white py-4" style="background-color: blueviolet;">
+  <div class="container">
+    <div class="row">
+      <!-- Company Info -->
+      <div class="col-md-4">
+        <h5>Binary Blasters</h5>
+        <p>E-mail: thebinaryblasters@gmail.com</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="/About.html" class="text-white text-decoration-none">About Us</a></li>
+          <li><a href="/Cards.html" class="text-white text-decoration-none">Syllabus</a></li>
+          <li><a href="/About.html" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-md-4">
+        <h5>Follow Us</h5>
+        <a href="https://www.facebook.com/profile.php?id=61571131743267&mibextid=kFxxJD" class="text-white text-decoration-none me-3"><i class="bi bi-facebook"></i> Facebook <i class="fa-brands fa-facebook"></i></a><br>
+        <a href="https://youtube.com/@thebinaryblasters?si=mgFbDO-ov6wPguc7" class="text-white text-decoration-none me-3"><i class="bi bi-twitter"></i> Youtube <i class="fa-brands fa-youtube"></i></a><br>
+        <a href="#" class="text-white text-decoration-none"><i class="bi bi-instagram"></i> Instagram <i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="text-center mt-3">
+      <p>&copy; 2024 Binary Blasters. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="ToggleMode.js"></script>
+  <script src="searchFunction.js"></script>
+  <script src="BackNxt.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
